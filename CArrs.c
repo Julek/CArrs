@@ -1,9 +1,8 @@
 #include <stdlib.h>
-#include <stdio.h>
 
-int create();
-int write(int n, int pos, int value);
-int read(int n, int pos);
+int arrCreate();
+int arrWrite(int n, int pos, int value);
+int arrRead(int n, int pos);
 
 int **arrays = NULL;
 int *arrays_s = NULL;
