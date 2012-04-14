@@ -1,4 +1,4 @@
-module Arr where
+module Arr (Arr(Arr), arrWrite, arrRead, arrCreate, arrSize) where
 
 import Control.Arrow
 import Foreign.C.Types
