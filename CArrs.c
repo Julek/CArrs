@@ -26,8 +26,7 @@ int arrCreate()
 
   arrays[num] = malloc(sizeof(int));
   arrays[num][0] = 0;
-  ++num;
-  return num - 1;
+  return num++;
 }
 
 
@@ -54,4 +53,9 @@ int arrRead(int n, int pos)
     return arrays[n][pos];
   else
     return 0;
+}
+
+int arrSize(int n)
+{
+  return arrays_s[n];
 }
